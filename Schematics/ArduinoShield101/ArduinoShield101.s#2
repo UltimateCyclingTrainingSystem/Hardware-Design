@@ -8568,7 +8568,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="VIN_CON" library="pinhead" deviceset="PINHD-1X2" device="/90"/>
 <part name="VIN1" library="supply1" deviceset="V+" device="" value="Vin"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X5" device="/90"/>
+<part name="PEDELEC_CON" library="pinhead" deviceset="PINHD-1X5" device="/90"/>
 <part name="VIN2" library="supply1" deviceset="V+" device="" value="Vin"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0207/5V" value="10k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/5V" value="10k"/>
@@ -8587,6 +8587,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1u"/>
+<part name="UART_CON" library="pinhead" deviceset="PINHD-1X2" device="/90"/>
 </parts>
 <sheets>
 <sheet>
@@ -8628,7 +8629,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="VIN1" gate="1" x="810.26" y="358.14" smashed="yes" rot="R90">
 <attribute name="VALUE" x="808.99" y="358.14" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP1" gate="A" x="1029.97" y="401.32"/>
+<instance part="PEDELEC_CON" gate="A" x="1029.97" y="401.32"/>
 <instance part="VIN2" gate="1" x="1019.81" y="406.4" smashed="yes" rot="R90">
 <attribute name="VALUE" x="1018.54" y="406.4" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -8655,13 +8656,14 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND7" gate="1" x="887.73" y="377.19"/>
 <instance part="GND8" gate="1" x="838.2" y="417.83"/>
 <instance part="C1" gate="G$1" x="953.77" y="389.89"/>
+<instance part="UART_CON" gate="G$1" x="868.68" y="355.6"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="PEDELEC_CON" gate="A" pin="2"/>
 <label x="1014.73" y="403.86" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <wire x1="1014.73" y1="403.86" x2="1027.43" y2="403.86" width="0.1524" layer="91"/>
 </segment>
@@ -8803,6 +8805,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="839.47" y1="378.46" x2="847.09" y2="378.46" width="0.1524" layer="91"/>
 <label x="834.39" y="375.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="UART_CON" gate="G$1" pin="2"/>
+<wire x1="866.14" y1="355.6" x2="853.44" y2="355.6" width="0.1524" layer="91"/>
+<label x="853.44" y="355.6" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
 </net>
 <net name="TX" class="0">
 <segment>
@@ -8811,6 +8818,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="838.2" y1="381" x2="838.2" y2="379.73" width="0.1524" layer="91"/>
 <wire x1="838.2" y1="379.73" x2="834.39" y2="379.73" width="0.1524" layer="91"/>
 <label x="834.39" y="379.73" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="UART_CON" gate="G$1" pin="1"/>
+<wire x1="866.14" y1="358.14" x2="859.79" y2="358.14" width="0.1524" layer="91"/>
+<label x="859.79" y="358.14" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8916,14 +8928,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="812.8" y1="358.14" x2="820.42" y2="358.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="PEDELEC_CON" gate="A" pin="1"/>
 <wire x1="1027.43" y1="406.4" x2="1022.35" y2="406.4" width="0.1524" layer="91"/>
 <pinref part="VIN2" gate="1" pin="V+"/>
 </segment>
 </net>
 <net name="SENS_TORQ" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="PEDELEC_CON" gate="A" pin="5"/>
 <wire x1="1027.43" y1="396.24" x2="1021.08" y2="396.24" width="0.1524" layer="91"/>
 <label x="1021.08" y="396.24" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
@@ -8936,7 +8948,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SENS_SIN" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="PEDELEC_CON" gate="A" pin="3"/>
 <wire x1="1027.43" y1="401.32" x2="1003.3" y2="401.32" width="0.1524" layer="91"/>
 <label x="1002.03" y="401.32" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -8954,7 +8966,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SENS_COS" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="PEDELEC_CON" gate="A" pin="4"/>
 <label x="982.98" y="398.78" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <wire x1="982.98" y1="398.78" x2="984.25" y2="398.78" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>

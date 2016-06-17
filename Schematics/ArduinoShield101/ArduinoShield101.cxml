@@ -1,0 +1,14 @@
+<panel>
+   <size>Small</size>
+   <boards class="java.util.ArrayList">
+      <panelBoard>
+         <filename>C:\Users\jorge\Documents\eagle\ArduinoShield101\ArduinoShield101</filename>
+         <x>5492</x>
+         <y>23519</y>
+         <angle>0</angle>
+         <generateOutline>true</generateOutline>
+         <topLayerTimestamp>2016-06-15 17:14:19.36 MESZ</topLayerTimestamp>
+         <bottomLayerTimestamp>2016-06-15 17:14:19.114 MESZ</bottomLayerTimestamp>
+      </panelBoard>
+   </boards>
+</panel>

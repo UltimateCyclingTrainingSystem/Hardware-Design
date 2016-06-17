@@ -1263,85 +1263,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
-<package name="PUSHBUTTON_SMD_SJ">
-<wire x1="-2.9997" y1="3" x2="3" y2="3" width="0.127" layer="51"/>
-<wire x1="3" y1="3" x2="3" y2="-3" width="0.2032" layer="51"/>
-<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="51"/>
-<wire x1="-3" y1="-3" x2="-2.9997" y2="3" width="0.2032" layer="51"/>
-<wire x1="-3" y1="1.7" x2="-3" y2="3" width="0.2032" layer="21"/>
-<wire x1="-3" y1="3" x2="3" y2="3" width="0.2032" layer="21"/>
-<wire x1="3" y1="3" x2="3" y2="1.7" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.7" x2="3" y2="-3" width="0.2032" layer="21"/>
-<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-3" x2="-3" y2="-1.7" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.8398" width="0.2032" layer="51"/>
-<smd name="P$1" x="3" y="0" dx="2" dy="2" layer="1"/>
-<smd name="P$2" x="-3" y="0" dx="2" dy="2" layer="1"/>
-<text x="-1.778" y="0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.778" y="-0.762" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TACT_PANA-EVQ">
-<pad name="P$1" x="-3.25" y="0" drill="1.3" diameter="2.54"/>
-<pad name="P$2" x="3.25" y="0" drill="1.3" diameter="2.54"/>
-<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.127" layer="51"/>
-<wire x1="3" y1="1.75" x2="3" y2="0.5" width="0.127" layer="51"/>
-<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="3" y1="-0.5" x2="3" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-3" y1="-1.75" x2="-3" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="-0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="0.5" x2="-3" y2="1.75" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-0.5" x2="3.95" y2="0.5" width="0.127" layer="51"/>
-<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
-<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="3" y1="-0.5" x2="3.95" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="0" x2="-3.95" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="-0.5" x2="-3.95" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-0.5" x2="-3.95" y2="0" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="51"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="51"/>
-<wire x1="-3.1" y1="1.5" x2="-3.1" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="1.9" x2="3.1" y2="1.9" width="0.127" layer="21"/>
-<wire x1="3.1" y1="1.9" x2="3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-1.5" x2="-3.1" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-1.9" x2="3.1" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-1.9" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
-<text x="-3.043" y="2.17" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-3.016" y="-2.451" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="BTN_CK_KSS">
-<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.127" layer="51"/>
-<wire x1="2.75" y1="1.75" x2="2.75" y2="1.505" width="0.127" layer="51"/>
-<wire x1="2.75" y1="1.505" x2="2.75" y2="-1.505" width="0.127" layer="51"/>
-<wire x1="2.75" y1="-1.505" x2="2.75" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="2.75" y1="-1.75" x2="1.25" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="1.25" y1="-1.75" x2="-1.25" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="-1.75" x2="-2.75" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="-1.75" x2="-2.75" y2="-1.505" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="-1.505" x2="-2.75" y2="1.505" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="1.505" x2="-2.75" y2="1.75" width="0.127" layer="51"/>
-<wire x1="3.5" y1="1.505" x2="3.5" y2="-1.505" width="0.127" layer="51"/>
-<wire x1="-3.5" y1="-1.505" x2="-3.5" y2="1.505" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="-2.65" x2="1.25" y2="-2.65" width="0.127" layer="51"/>
-<wire x1="1.25" y1="-2.65" x2="1.25" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="-2.65" x2="-1.25" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-3.5" y1="1.505" x2="-2.75" y2="1.505" width="0.127" layer="51"/>
-<wire x1="2.75" y1="1.505" x2="3.5" y2="1.505" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="-1.505" x2="-3.5" y2="-1.505" width="0.127" layer="51"/>
-<wire x1="3.5" y1="-1.505" x2="2.75" y2="-1.505" width="0.127" layer="51"/>
-<smd name="P$1" x="-2.95" y="0" dx="1.7" dy="3.7" layer="1"/>
-<smd name="P$2" x="2.95" y="0" dx="1.7" dy="3.7" layer="1"/>
-<wire x1="-1.9" y1="1.9" x2="1.9" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-1.9" x2="-1.4" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-1.9" x2="1.9" y2="-1.9" width="0.127" layer="21"/>
-<text x="-1.886" y="2.094" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.886" y="1.144" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="PINHD10">
@@ -1416,17 +1337,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
-</symbol>
-<symbol name="PUSHBUTTON">
-<wire x1="-2.54" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="2.286" x2="0" y2="2.286" width="0.254" layer="94"/>
-<wire x1="0" y1="2.286" x2="0.635" y2="2.286" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="2.286" width="0.254" layer="94"/>
-<text x="-2.54" y="3.556" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.286" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1950,44 +1860,6 @@ Source: http://www.osram.convergy.de/</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SWITCH_PUSHBUTTON" prefix="SW" uservalue="yes">
-<description>&lt;p&gt;&lt;b&gt;Buttons&lt;/b&gt;&lt;/p&gt;
-&lt;b&gt;SOFTTOUCHSMD_SJ&lt;/b&gt; - Soft touch temporary push button (Super Junk Akihabara)
-&lt;p&gt;Compatible with SKPMANE010 [Mouser: 688-SKPMAN]&lt;/p&gt;
-&lt;p&gt;C&amp;K_KSS = Digikey: KSS221GLFS&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="PUSHBUTTON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOFTTOUCHSMD_SJ" package="PUSHBUTTON_SMD_SJ">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="EVQ-PE" package="TACT_PANA-EVQ">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C&amp;K_KSS" package="BTN_CK_KSS">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8557,8 +8429,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SG_CON" library="pinhead" deviceset="PINHD-1X8" device="/90"/>
 <part name="CAD_CON" library="pinhead" deviceset="PINHD-1X2" device="/90"/>
 <part name="IC1" library="burr-brown" deviceset="INA122" device="U"/>
-<part name="RG" library="rcl" deviceset="R-EU_" device="0207/5V"/>
-<part name="RG1" library="rcl" deviceset="R-EU_" device="0207/5V" value="10k"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="VIN" library="supply1" deviceset="V+" device="" value="Vin"/>
@@ -8568,16 +8438,11 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="VIN_CON" library="pinhead" deviceset="PINHD-1X2" device="/90"/>
 <part name="VIN1" library="supply1" deviceset="V+" device="" value="Vin"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X5" device="/90"/>
+<part name="PEDELEC_CON" library="pinhead" deviceset="PINHD-1X5" device="/90"/>
 <part name="VIN2" library="supply1" deviceset="V+" device="" value="Vin"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/5V" value="10k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0207/5V" value="10k"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="ON_LED" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="RLED" library="rcl" deviceset="R-EU_" device="0207/5V" value="470"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="SW1" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -8586,8 +8451,15 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1u"/>
 <part name="UART_CON" library="pinhead" deviceset="PINHD-1X2" device="/90"/>
+<part name="RLED" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
+<part name="RC" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="RG" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8602,8 +8474,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="SG_CON" gate="A" x="899.16" y="391.16"/>
 <instance part="CAD_CON" gate="G$1" x="899.16" y="421.64"/>
 <instance part="IC1" gate="G$1" x="932.18" y="403.86"/>
-<instance part="RG" gate="G$1" x="916.94" y="408.94" rot="R90"/>
-<instance part="RG1" gate="G$1" x="882.65" y="415.29" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="821.69" y="417.83" smashed="yes" rot="R270">
 <attribute name="VALUE" x="822.96" y="416.56" size="1.778" layer="96"/>
 </instance>
@@ -8629,41 +8499,43 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="VIN1" gate="1" x="810.26" y="358.14" smashed="yes" rot="R90">
 <attribute name="VALUE" x="808.99" y="358.14" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP1" gate="A" x="1029.97" y="401.32"/>
+<instance part="PEDELEC_CON" gate="A" x="1029.97" y="401.32"/>
 <instance part="VIN2" gate="1" x="1019.81" y="406.4" smashed="yes" rot="R90">
 <attribute name="VALUE" x="1018.54" y="406.4" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="1003.3" y="407.67" rot="R90"/>
-<instance part="R2" gate="G$1" x="984.25" y="405.13" rot="R90"/>
 <instance part="P+6" gate="1" x="1003.3" y="416.56" smashed="yes">
 <attribute name="VALUE" x="1004.57" y="417.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+7" gate="1" x="984.25" y="414.02" smashed="yes">
 <attribute name="VALUE" x="985.52" y="415.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ON_LED" gate="G$1" x="839.47" y="342.9"/>
-<instance part="RLED" gate="G$1" x="839.47" y="351.79" rot="R90"/>
 <instance part="P+8" gate="1" x="839.47" y="361.95" smashed="yes">
 <attribute name="VALUE" x="840.74" y="363.22" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SW1" gate="G$1" x="819.15" y="342.9"/>
 <instance part="GND1" gate="1" x="947.42" y="379.73"/>
 <instance part="GND2" gate="1" x="839.47" y="334.01"/>
-<instance part="GND3" gate="1" x="825.5" y="334.01"/>
+<instance part="GND3" gate="1" x="817.88" y="328.93"/>
 <instance part="GND4" gate="1" x="812.8" y="353.06"/>
 <instance part="GND5" gate="1" x="810.26" y="402.59"/>
 <instance part="GND6" gate="1" x="882.65" y="406.4"/>
 <instance part="GND7" gate="1" x="887.73" y="377.19"/>
 <instance part="GND8" gate="1" x="838.2" y="417.83"/>
-<instance part="C1" gate="G$1" x="953.77" y="389.89"/>
 <instance part="UART_CON" gate="G$1" x="868.68" y="355.6"/>
+<instance part="RLED" gate="G$1" x="839.47" y="351.79" rot="R90"/>
+<instance part="RC" gate="G$1" x="882.65" y="415.29" rot="R90"/>
+<instance part="RG" gate="G$1" x="916.94" y="408.94" rot="R90"/>
+<instance part="R1" gate="G$1" x="1003.3" y="407.67" rot="R90"/>
+<instance part="R2" gate="G$1" x="984.25" y="405.13" rot="R90"/>
+<instance part="C1" gate="G$1" x="953.77" y="389.89"/>
+<instance part="LED1" gate="G$1" x="839.47" y="342.9"/>
+<instance part="JP1" gate="G$1" x="828.04" y="335.28"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="PEDELEC_CON" gate="A" pin="2"/>
 <label x="1014.73" y="403.86" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <wire x1="1014.73" y1="403.86" x2="1027.43" y2="403.86" width="0.1524" layer="91"/>
 </segment>
@@ -8677,21 +8549,15 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="944.88" y1="396.24" x2="947.42" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="947.42" y1="388.62" x2="947.42" y2="396.24" width="0.1524" layer="91"/>
 <junction x="947.42" y="388.62"/>
-<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="953.77" y1="384.81" x2="953.77" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="953.77" y1="383.54" x2="947.42" y2="383.54" width="0.1524" layer="91"/>
 <junction x="947.42" y="383.54"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="ON_LED" gate="G$1" pin="C"/>
 <wire x1="839.47" y1="336.55" x2="839.47" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="336.55" x2="825.5" y2="342.9" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P$2"/>
-<wire x1="825.5" y1="342.9" x2="824.23" y2="342.9" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="VIN_CON" gate="G$1" pin="2"/>
@@ -8711,9 +8577,9 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="807.72" y="411.48"/>
 </segment>
 <segment>
-<pinref part="RG1" gate="G$1" pin="1"/>
 <wire x1="882.65" y1="410.21" x2="882.65" y2="408.94" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="RC" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SG_CON" gate="A" pin="6"/>
@@ -8731,6 +8597,12 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="838.2" y1="422.91" x2="838.2" y2="420.37" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="825.5" y1="335.28" x2="817.88" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="817.88" y1="335.28" x2="817.88" y2="331.47" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -8739,9 +8611,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="806.45" y="420.37" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="808.99" y1="342.9" x2="814.07" y2="342.9" width="0.1524" layer="91"/>
-<label x="808.99" y="342.9" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="SW1" gate="G$1" pin="P$1"/>
+<label x="816.61" y="337.82" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="825.5" y1="337.82" x2="816.61" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IOREF" class="0">
@@ -8761,10 +8633,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="IC1" gate="G$1" pin="V+"/>
 <wire x1="944.88" y1="393.7" x2="953.77" y2="393.7" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="953.77" y1="393.7" x2="957.58" y2="393.7" width="0.1524" layer="91"/>
 <wire x1="953.77" y1="392.43" x2="953.77" y2="393.7" width="0.1524" layer="91"/>
 <junction x="953.77" y="393.7"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="CAD_CON" gate="G$1" pin="1"/>
@@ -8782,19 +8654,19 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="1003.3" y1="414.02" x2="1003.3" y2="412.75" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="984.25" y1="411.48" x2="984.25" y2="410.21" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="RLED" gate="G$1" pin="2"/>
 <wire x1="839.47" y1="356.87" x2="839.47" y2="359.41" width="0.1524" layer="91"/>
+<pinref part="RLED" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -8841,10 +8713,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="CAD_CON" gate="G$1" pin="2"/>
 <wire x1="896.62" y1="421.64" x2="882.65" y2="421.64" width="0.1524" layer="91"/>
 <wire x1="882.65" y1="421.64" x2="882.65" y2="420.37" width="0.1524" layer="91"/>
-<pinref part="RG1" gate="G$1" pin="2"/>
 <wire x1="882.65" y1="421.64" x2="880.11" y2="421.64" width="0.1524" layer="91"/>
 <label x="880.11" y="421.64" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <junction x="882.65" y="421.64"/>
+<pinref part="RC" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="FORCE_IN" class="0">
@@ -8928,14 +8800,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="812.8" y1="358.14" x2="820.42" y2="358.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="PEDELEC_CON" gate="A" pin="1"/>
 <wire x1="1027.43" y1="406.4" x2="1022.35" y2="406.4" width="0.1524" layer="91"/>
 <pinref part="VIN2" gate="1" pin="V+"/>
 </segment>
 </net>
 <net name="SENS_TORQ" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="PEDELEC_CON" gate="A" pin="5"/>
 <wire x1="1027.43" y1="396.24" x2="1021.08" y2="396.24" width="0.1524" layer="91"/>
 <label x="1021.08" y="396.24" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
@@ -8948,13 +8820,13 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SENS_SIN" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="PEDELEC_CON" gate="A" pin="3"/>
 <wire x1="1027.43" y1="401.32" x2="1003.3" y2="401.32" width="0.1524" layer="91"/>
 <label x="1002.03" y="401.32" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="1003.3" y1="401.32" x2="1002.03" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="1003.3" y1="402.59" x2="1003.3" y2="401.32" width="0.1524" layer="91"/>
 <junction x="1003.3" y="401.32"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="DIGITAL_L" gate="G$1" pin="5"/>
@@ -8966,13 +8838,13 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SENS_COS" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="PEDELEC_CON" gate="A" pin="4"/>
 <label x="982.98" y="398.78" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <wire x1="982.98" y1="398.78" x2="984.25" y2="398.78" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="984.25" y1="398.78" x2="1027.43" y2="398.78" width="0.1524" layer="91"/>
 <wire x1="984.25" y1="400.05" x2="984.25" y2="398.78" width="0.1524" layer="91"/>
 <junction x="984.25" y="398.78"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="DIGITAL_L" gate="G$1" pin="4"/>
@@ -8984,9 +8856,9 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="RLED" gate="G$1" pin="1"/>
-<pinref part="ON_LED" gate="G$1" pin="A"/>
 <wire x1="839.47" y1="345.44" x2="839.47" y2="346.71" width="0.1524" layer="91"/>
+<pinref part="RLED" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
